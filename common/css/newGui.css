@@ -1,0 +1,806 @@
+.email-icon {
+    width: 55%;
+    height: 15px;
+    color: #000;
+    margin-bottom: -3px;
+    margin-left: 10px;
+}
+
+.title-text {
+    font-weight: 600;
+    padding-top: 13px;
+    color: #25aadb !important;
+}
+
+.clinic-icon {
+    width: 21%;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.dropdown-toggle1 {
+    margin-top: 7px;
+}
+
+.medappdynamics-logo {
+    max-width: 200px;
+    -webkit-border-radius: 4px;
+    height: auto;
+}
+
+.table table-striped table-hover table-bordered-1 {
+    margin: -15px;
+}
+
+.btn-xs btn-info delete_button1 {
+
+    height: 20px;
+
+}
+
+/* .btn-xs btn-info delete_button2{
+background: #246D91;
+    border-color: #246D91;
+    border-radius: 0px;
+    margin-top: 0px;
+    // width: 100px;
+    border-radius: 0px;
+    color: #fff;
+} */
+
+.btn-xs invoicebutton1 {
+    margin-right: 4px;
+    padding-right: 5px;
+    color: #fff;
+    width: 25%;
+    background: #2aa9d8;
+}
+
+/* .table-heading-title{
+border: none;
+    margin-right: 0;
+    box-shadow: 0px 0px 4px 0px grey !important;
+    
+} */
+.department-edit-butt {
+
+    height: 17px;
+    margin-left: -5px;
+    margin-bottom: 1px;
+}
+
+.department-trash-butt {
+    height: 20px;
+    margin-bottom: 1px;
+    /* margin-left: -5px;  */
+}
+
+/* .specialist-table{
+    padding:0px 10px;
+}  */
+.department-info-butt {
+    height: 15px;
+}
+
+.add-specialist1 {
+    margin-left: -45px;
+    padding: 25px 35px;
+}
+
+.treatment-table {
+    box-shadow: 0px 0px 4px 0px grey !important;
+}
+
+.invoice-form-style {
+    font-size: 15px;
+}
+
+.panel-body1 {
+    padding: 1px 0px !important;
+}
+
+.tr-font {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.row state-overview1 {
+    padding: 23px 0px;
+}
+
+.support-sub {
+    background: #2AA9D8 !important;
+    border-radius: 0px 0px 20px 0px !important;
+}
+
+.fas fa-user-headset1 {
+    vertical-align: middle !important;
+}
+
+.support-sub1 {
+    padding-bottom: 10px;
+}
+
+.header-white-bg1 {
+    margin-top: -13px;
+    box-shadow: 0px -6px 4px 13px #9f9696;
+}
+
+.header-menu-icon {
+    height: 20px;
+    margin-top: -10px;
+}
+
+.navbar1 {
+    margin-top: 23px;
+}
+
+.label-danger-count1 {
+    border-radius: 10px;
+}
+
+.nav-collapse1 {
+    background: #f3f3f3 !important;
+}
+
+.sidebar-menu1 {
+    border-width: 1px !important;
+}
+
+.sidebar-menu-li {
+    background: #2AA9D8 !important;
+    border-radius: 0px 20px 0px 0px !important;
+}
+
+.sidebar-menu-iconn {
+    vertical-align: middle !important;
+}
+
+.sub-menu1 {
+    background: #2AA9D8 !important;
+}
+
+.sub-menu2-icon {
+    height: 35px;
+}
+
+.sub-menu3 {
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.fa-users-medical {
+    color: #fff !important;
+}
+
+.fa-clock1 {
+    color: #fff !important;
+}
+
+.fa-money-check {
+    color: #fff !important;
+
+}
+
+.sub-menu {
+    background: #4b95d0 !important;
+}
+
+.state-overview-col1 {
+    padding: 18px 19px 23px 19px;
+}
+
+.state-overview-col2 {
+    padding: 18px 0px 23px 19px;
+    margin-bottom: 20px;
+}
+
+.state-overview-col3 {
+    padding: 23px 19px;
+    margin-bottom: 20px;
+}
+
+.state-overview-col4 {
+    padding: 23px 19px;
+}
+
+.state-overview-col5 {
+    padding: 23px 0px;
+}
+
+.state-overview-col6 {
+    padding: 30px 0px;
+}
+
+.modal-lg1 {
+    width: 80%;
+}
+
+.detailsbutton1 {
+    color: #fff;
+}
+
+.col-width {
+    width: 25%;
+}
+
+.home_rectangle_box {
+    border-radius: 15px;
+    border-width: 1px;
+    box-shadow: 0px 0px 0px 1px #7a7070;
+}
+
+.symbol_blue_1 {
+    background: #25aadb !important;
+    border-radius: 15px !important;
+    margin: 3px 3px 3px 3px !important;
+    width: 40% !important;
+    height: 100px !important;
+}
+
+.value1 {
+    color: #000;
+    width: 40%;
+}
+
+.value2 {
+    color: #000;
+    width: 45%;
+}
+
+.value3 {
+    color: #000;
+    width: 50%;
+}
+
+.mainmenu-icon-text {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.section-panel {
+    box-shadow: 0px 0px 5px 2px #808080;
+}
+
+.sec-panel-body-bg {
+    background: #fff
+}
+
+.table-row1 {
+    border-collapse: separate !important;
+    border-spacing: 0px 1em !important;
+}
+
+.dash-board-mainicon {
+    height: 40px;
+    margin-right: 5px
+}
+
+.delete_button {
+    border-bottom: 0px;
+    color: #fff !important;
+}
+
+.dept-add-spec-fileupload {
+    max-width: 200px;
+    max-height: 150px;
+    line-height: 20px;
+}
+
+.dept-add-spec-fileupload1 {
+    width: 200px;
+    height: 150px;
+}
+
+.dept-add-spec-submit {
+    margin-left: 500px;
+}
+
+.doc-list-doc-img {
+    height: 40px;
+}
+
+.schedule-tab-bg {
+    background: #345678;
+    color: #fff;
+}
+
+.patient-form-add-new {
+    padding: 24px 0px 880px 0px;
+    /*  margin: 2px 1px 0px -45px; */
+}
+
+.form-group1 {
+    background-color: transparent;
+}
+
+.all-case-tab {
+    width: 10%
+}
+
+.all-case-tab1 {
+    width: 15%
+}
+
+.doc-tab-document {
+    width: 20%;
+}
+
+.case-tab1 {
+    width: 60%
+}
+
+.files-edit-but {
+    height: 20px !important;
+    margin-left: -5px !important;
+}
+
+.files-trash-but {
+    height: 20px !important;
+    margin-left: -5px !important;
+}
+
+.files-panel-col-md-3 {
+    height: 200px;
+    margin-right: 5px;
+}
+
+.invoice-panel-col-md-5 {
+    font-size: 10px;
+}
+
+.invoice-panel-col-md-6 {
+    font-size: 10px;
+    float: right;
+}
+
+.med-profile-nav {
+    margin-top: 1px;
+}
+
+.li-col-address {
+    height: 200px;
+}
+
+.history-panel-heading {
+    margin: 1px -15px 1px -15px;
+}
+
+.tab-history {
+    margin: 5px -14px -11px;
+}
+
+.btn-xs-margin {
+    margin-left: 10px;
+}
+
+.adv-table1 {
+    overflow: auto;
+}
+
+.tab-vitals {
+    white-space: nowrap;
+}
+
+.addnew-panel-col-md-3 {
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 36px;
+    background: #f1f1f1;
+    padding: 34px;
+}
+
+.patient-payment-fafa-icon {
+    background: #fff;
+}
+
+/* .f_report1 {
+    margin: 10px -45px -5px -15px !important;
+} */
+
+.invoice-button1 {
+    color: #fff;
+    width: 23px;
+}
+
+.panel-red1 {
+    border: 2px solid red;
+    color: red;
+}
+
+.payment_to-col {
+    float: left;
+}
+
+.text-center1 {
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.col-md-6-row1 {
+    text-align: left;
+}
+
+.patient_info_text {
+    text-transform: uppercase;
+}
+
+.col-5-no-print {
+    margin-top: 20px;
+}
+
+.form-group-col {
+    text-align: center !important;
+}
+
+.schedule-del-but {
+    height: 20px;
+}
+
+.schedule-tab-bg1 {
+    background: #876543;
+    color: #fff;
+}
+
+.schedule-tab-bg2 {
+    background: #654321;
+    color: #fff;
+}
+
+.table-row2 {
+    width: 100%;
+    border-collapse: separate !important;
+    border-spacing: 0 1em !important;
+}
+
+.appoinment-tab-width1 {
+    width: 1% !important;
+}
+
+.appoinment-tab-width2 {
+    width: 0% !important;
+}
+
+.appoinment-tab-width3 {
+    width: 100% !important;
+}
+
+.appoinment-tab-width4 {
+    width: 50% !important;
+}
+
+.appoinment-tab-width5 {
+    width: 200% !important;
+}
+
+.appoinment-tab-width6 {
+    width: 80% !important;
+}
+
+.appoinment-cont-text {
+    font-size: smaller !important;
+}
+
+.error_msg1 {
+    color: red;
+    display: none;
+}
+
+.add_payment_butt1 {
+    width: 100px;
+    background: #2AA9d8;
+}
+
+.task-thumb1 {
+    margin-right: 10px;
+}
+
+.caldet-panel-body {
+    background: #ffff !important;
+    margin-top: 1px !important;
+}
+
+.nurse-form-addnew {
+    margin-left: -45px;
+    padding: 25px 35px;
+}
+
+.payment_activity {
+    color: #009988;
+    text-transform: capitalize;
+}
+
+.today-report-w {
+    width: 20%;
+}
+
+.owl-theme1 {
+    opacity: 1;
+    display: block;
+}
+
+.fa-arrow1 {
+    float: right;
+    font-size: 18px;
+}
+
+.total_amt_cont {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.li_bg_green {
+    background: greenyellow
+}
+
+.flat-carousal1 {
+    background: #39B27C;
+}
+
+.date-set1 {
+    margin: 5px;
+}
+
+.bed-edit-bttn-icon {
+    height: 17px;
+}
+
+.feature-width {
+    width: 95%;
+}
+
+.clear-fix1 {
+    margin: 1px -15px;
+    padding: 25px 35px;
+}
+
+.expense-edit-bttn-icon {
+    height: 20px;
+}
+
+.expense-panel-col {
+    font-size: 10px;
+    background: #ffff;
+}
+
+.f_report1 {
+    margin-right: -15px;
+}
+
+.li_bg_green1 {
+    background: yellow;
+}
+
+.table-row3 {
+    border-collapse: separate !important;
+    border-spacing: 0px 1em !important;
+    background: rgb(183, 179, 179) !important;
+    margin: -15px;
+}
+
+.files-edit-buttton {
+    height: 17px !important;
+    margin-left: -5px !important;
+}
+
+.payment_user_act_col {
+    margin-top: -8px;
+}
+
+.pos-form2 {
+    background: #f7f7f7;
+}
+
+.width_auto1 {
+    padding: 2px 5px;
+}
+
+.home-panel1 {
+    padding-top: 10px;
+}
+
+.work-pro-gress-home1 {
+    display: inline-block;
+    width: 47px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.work-pro-gress-home2 {
+    display: inline-block;
+    width: 47px;
+    height: 22px;
+    vertical-align: top;
+}
+
+.con-tent1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.clearfix-img {
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+}
+
+.li-front-end {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.hospital-addnew-h4 {
+    font-size: 13px;
+}
+
+.cen-ter1 {
+    text-transform: capitalize;
+}
+
+.flash-message1 {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    display: flex;
+}
+
+.in-voice-from-text {
+    font-weight: bold !important;
+}
+
+.Invoice-logo-img {
+    height: 60px
+}
+
+.table-responsive1 {
+    overflow: hidden;
+    outline: none;
+}
+
+.hr-lab_report {
+    width: 200px;
+    border-bottom: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.panel-primary1 {
+    margin: 2% 3%;
+}
+
+.h4-lab-report {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.h4-lab-report1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.col-md-12-panel-body1 {
+    min-height: 400px;
+}
+
+.h3-scan-invoice {
+    font-weight: bold;
+}
+
+.h4-lab-report2 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hr-line1 {
+    height: 1px
+}
+
+.report-scan-1 {
+    padding: 15px;
+}
+
+.scan-label {
+    display: flex;
+    overflow: auto;
+}
+
+.fileupload-preview1 {
+    width: 100px;
+    height: 100px;
+}
+
+.fileupload-preview2 {
+    max-width: 100px;
+    max-height: 100px;
+    line-height: 20px;
+}
+
+.form-control1 {
+    height: 200px !important;
+}
+
+.template-edit-bttn {
+    height: 17px;
+    margin-top: -3px;
+}
+
+.laboratorist-width {
+    width: 10%;
+}
+
+.panel-form-group2 {
+    background: transparent;
+}
+
+.med-table1 {
+    width: 132px;
+}
+
+.prescription-panel1 {
+    margin: 50px 0px;
+}
+
+.prescription-panel2 {
+    padding-left: 10px;
+}
+
+.prescription-text {
+    border-bottom: 1px solid #000;
+}
+
+.pull-left-col-4 {
+    font-size: 12px;
+    margin-top: 70px;
+}
+
+.request-main-content {
+    margin-left: 0px !important;
+}
+
+.request-h4-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.request-wrapper {
+    padding-right: 40px !important;
+}
+
+.request-panel-body {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.request-col-lg-6 {
+    font-size: 26px;
+    color: green;
+    text-align: center;
+}
+
+.request-payment1 {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    background: #F8FAF5;
+    margin: 0 auto;
+}
+
+.super-admin-submit {
+    margin-left: 500px;
+}
+
+.superadmin-detailsbutton {
+    color: #fff;
+}
+
+.datepicker td,
+.datepicker th {
+    display: revert;
+    width: 2.5rem;
+}

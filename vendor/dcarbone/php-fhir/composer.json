@@ -1,0 +1,61 @@
+{
+  "name": "dcarbone/php-fhir",
+  "type": "library",
+  "description": "Tools for creating PHP classes from the HL7 FHIR Specification",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/dcarbone/php-fhir",
+  "authors": [
+    {
+      "name": "Daniel Paul Carbone",
+      "email": "daniel.p.carbone@gmail.com"
+    }
+  ],
+  "keywords": [
+    "php",
+    "fhir",
+    "ehr",
+    "hl7",
+    "php-fhir"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-simplexml": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "myclabs/php-enum": "@stable",
+    "psr/log": "@stable"
+  },
+  "require-dev": {
+    "ext-curl": "*",
+    "phpunit/phpunit": "@stable"
+  },
+  "replace": {
+    "php-fhir/parser": "*",
+    "php-fhir/resources": "*",
+    "php-fhir/elements": "*",
+    "php-fhir/common": "*",
+    "php-fhir/component-tests": "*",
+    "php-fhir/object-mapper": "*",
+    "php-fhir/utilities": "*"
+  },
+  "autoload": {
+    "files": [
+      "files/constants.php",
+      "files/funcs.php"
+    ],
+    "psr-4": {
+      "DCarbone\\PHPFHIR\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HL7\\": "output/HL7"
+    }
+  },
+  "config": {
+    "platform-check": false
+  },
+  "suggest": {
+    "ext-zip": "To enable unzipping of downloaded source files"
+  }
+}
