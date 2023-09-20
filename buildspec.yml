@@ -35,10 +35,9 @@ phases:
       - wget https://aws-codedeploy-af-south-1.s3.af-south-1.amazonaws.com/latest/install
       - chmod +x ./install
       - sudo ./install auto
-      - wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
-      - mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
-      - rm -f phpMyAdmin-latest-all-languages.tar.gz 
-      - sudo mv phpMyAdmin /var/www/html/
+      - wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz && sudo mv phpMyAdmin-latest-all-languages.tar.gz /var/www/html/
+      - mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1 
+      - rm -f phpMyAdmin-latest-all-languages.tar.gz
       - mv -f /var/www/html/phpMyAdmin/config.sample.inc.php /var/www/html/phpMyAdmin/config.inc.php
       
       
