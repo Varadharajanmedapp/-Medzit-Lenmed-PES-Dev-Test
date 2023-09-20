@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - # Your other pre_build commands here
-      
+
 
   build:
     commands:
@@ -24,15 +24,7 @@ phases:
       - rm -rf /var/www/html/*
       - rm -rf /var/www/html/.htaccess 
       - sudo yum install php-mbstring php-xml -y
-      - sudo su
-      - cd /var/www/html
-      - wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
-      - mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
-      - rm phpMyAdmin-latest-all-languages.tar.gz
-      - sudo systemctl start mariadb
-      - cd phpMyAdmin 
-      - sudo mv config.sample.inc.php config.inc.php
-      - sudo vi config.inc.php
+
 
       
   post_build:
@@ -43,6 +35,11 @@ phases:
       - wget https://aws-codedeploy-af-south-1.s3.af-south-1.amazonaws.com/latest/install
       - chmod +x ./install
       - sudo ./install auto
+      - wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
+      - mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
+      - rm -f phpMyAdmin-latest-all-languages.tar.gz 
+      - sudo mv phpMyAdmin /var/www/html/
+      - mv -f /var/www/html/phpMyAdmin/config.sample.inc.php /var/www/html/phpMyAdmin/config.inc.php
       
       
 artifacts:
