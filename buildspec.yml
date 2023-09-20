@@ -24,7 +24,6 @@ phases:
       - rm -rf /var/www/html/*
       - rm -rf /var/www/html/.htaccess 
       - sudo yum install php-mbstring php-xml -y
-      - sudo systemctl restart httpd
       - sudo systemctl restart php-fpm
       - sudo su
       - cd /var/www/html
