@@ -29,7 +29,7 @@ phases:
       
   post_build:
     commands:
-      - # Your other post_build commands here
+      - # Your other post_build commands her
       - sudo su
       - cd ~
       - wget https://aws-codedeploy-af-south-1.s3.af-south-1.amazonaws.com/latest/install
