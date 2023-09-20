@@ -1,0 +1,30 @@
+version: 0.0
+os: linux
+files:
+  - source: /                                        #Update this destination path based on your server setup
+    destination: /var/www/html/                      #Update this destination path based on your server setup
+    overwrite: true
+    
+permissions:
+  - object: /
+    pattern: "**"
+    owner: ec2-user                                 # Update this owner based on your web server user
+    group: ec2-user                                 # Update this group based on your web server group
+    mode: 777                                       # Update this mode based on your file permission requirements
+
+hooks:
+
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh                   # Path to your setup script
+      timeout: 300                                          # Path to time out
+      runas: root                                           # User to run the script as
+  
+  AfterInstall:
+    - location: scripts/start_server.sh                     # Path to your starting script
+      timeout: 300
+      runas: root
+      
+  ApplicationStop:
+    - location: scripts/stop_server.sh                      ## Path to your stop script
+      timeout: 300
+      runas: root

@@ -1,0 +1,42 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - # Your other pre_build commands here
+      
+
+  build:
+    commands:
+      - # Your other build commands here
+      - echo "Installating  packages..."
+      - yum update -y
+      - yum upgrade -y
+      - yum install amazon-linux-extras -y
+      - amazon-linux-extras | grep php
+      - amazon-linux-extras enable php7.4
+      - amazon-linux-extras install php7.4
+      - yum clean metadata
+      - yum install php-cli php-pdo php-fpm php-json php-mysqlnd -y
+      - yum install git -y
+      - sudo yum install ruby -y
+      - sudo yum install wget -y
+      - rm -rf /var/www/html/*
+      - rm -rf /var/www/html/.htaccess 
+      
+
+  post_build:
+    commands:
+      - # Your other post_build commands here
+      - sudo su
+      - cd ~
+      - wget https://aws-codedeploy-af-south-1.s3.af-south-1.amazonaws.com/latest/install
+      - chmod +x ./install
+      - sudo ./install auto
+      
+      
+artifacts:
+  files:
+    - '**/*'
+    - '!application/config/database.php.ci'
+    - '!application/config/config.php.ci'
