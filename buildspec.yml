@@ -23,8 +23,20 @@ phases:
       - sudo yum install wget -y
       - rm -rf /var/www/html/*
       - rm -rf /var/www/html/.htaccess 
-      
+      - sudo yum install php-mbstring php-xml -y
+      - sudo systemctl restart httpd
+      - sudo systemctl restart php-fpm
+      - sudo su
+      - cd /var/www/html
+      - wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
+      - mkdir phpMyAdmin && tar -xvzf phpMyAdmin-latest-all-languages.tar.gz -C phpMyAdmin --strip-components 1
+      - rm phpMyAdmin-latest-all-languages.tar.gz
+      - sudo systemctl start mariadb
+      - cd phpMyAdmin 
+      - sudo mv config.sample.inc.php config.inc.php
+      - sudo vi config.inc.php
 
+      
   post_build:
     commands:
       - # Your other post_build commands here
